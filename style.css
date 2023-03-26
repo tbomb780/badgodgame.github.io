@@ -1,15 +1,31 @@
-h1 {
-    font-family: "Trebuchet MS", sans-serif;
-  font-size: 2em;
-  letter-spacing: -2px;
-  border-bottom: 2px solid powderblue;
-  text-transform: uppercase;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
-body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  background-image:url(background.jpg);
-  opacity: 1;
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.game-details {
+  margin-bottom: 40px;
+}
+
+.interest {
+  text-align: center;
+}
+
+#interest-form {
+  margin-top: 40px;
+  text-align: left;
 }
